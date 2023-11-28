@@ -21,5 +21,6 @@ Route::post('/users/register',[\App\Http\Controllers\UserController::class,'regi
 Route::post('/users/login',[\App\Http\Controllers\UserController::class,'login']);
 
 Route::middleware(\App\Http\Middleware\ApiAuthMiddleware::class)->group(function (){
+    Route::post('/users/otp',[\App\Http\Controllers\LoginOtpController::class,'login_verification']);
     Route::get('/users/current', [\App\Http\Controllers\UserController::class,'getUser']);
 });

@@ -14,6 +14,7 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
+use App\Notifications\LoginEmailOtpNotification;
 
 class UserController extends Controller
 {
@@ -53,6 +54,7 @@ class UserController extends Controller
             ],401));
         }
         $user->token = Str::uuid()->toString();
+        $user->notify(new LoginEmailOtpNotification());
         $user->save();
 
         return new UserResource($user);

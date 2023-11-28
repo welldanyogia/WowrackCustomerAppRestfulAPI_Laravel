@@ -123,6 +123,7 @@
       <path value="$PROJECT_DIR$/WowrackRestfulAPILaravel/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/WowrackRestfulAPILaravel/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/WowrackRestfulAPILaravel/vendor/composer" />
+      <path value="$PROJECT_DIR$/WowrackRestfulAPILaravel/vendor/ichtrojan/laravel-otp" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

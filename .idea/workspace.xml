@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf0e307-a0d6-4daf-995c-9a1bf2d037ac" name="Changes" comment="" />
+    <list default="true" id="cdf0e307-a0d6-4daf-995c-9a1bf2d037ac" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,6 +149,7 @@
       <path value="$PROJECT_DIR$/WowrackRestfulAPILaravel/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/WowrackRestfulAPILaravel/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/WowrackRestfulAPILaravel/vendor/composer" />
+      <path value="$PROJECT_DIR$/WowrackRestfulAPILaravel/vendor/ichtrojan/laravel-otp" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -151,22 +161,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "DEFAULT",
-    "settings.editor.selected.configurable": "reference.settings.deploy.options",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;DEFAULT&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.deploy.options&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="PHPUnit.UserTest.testRegisterSuccess">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/WowrackRestfulAPILaravel/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -195,11 +205,24 @@
       <workItem from="1701112027479" duration="8268000" />
       <workItem from="1701128961011" duration="3821000" />
       <workItem from="1701160357852" duration="3314000" />
-      <workItem from="1701185141736" duration="2775000" />
+      <workItem from="1701185141736" duration="9333000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1701189316008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701189316008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
