@@ -1,0 +1,121 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "Hotspot API",
+        "description": "Hotspot API",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8080"
+        }
+    ],
+    "paths": {
+        "/api/hotspot" : {
+            "post": {
+                "description": "Create new hotspot",
+                "parameters": [
+                    {
+                        "name": "Authorization",
+                        "in": "header"
+                    }
+                ],
+                "requestBody": {
+                    "description": "Create new hotspot",
+                    "content": {
+                        "application/json" : {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "name" : {
+                                        "type": "string"
+                                    },
+                                    "lang" : {
+                                        "type": "number"
+                                    },
+                                    "long" : {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Success create hotspot",
+                        "content": {
+                            "application/json" : {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data" : {
+                                            "type": "object",
+                                            "properties": {
+                                                "id" : {
+                                                    "type": "number"
+                                                },
+                                                "name" : {
+                                                    "type": "string"
+                                                },
+                                                "lang" : {
+                                                    "type": "number"
+                                                },
+                                                "long" : {
+                                                    "type": "number"
+                                                }
+                                            }
+                                        },
+                                        "error" : {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "description": "Get all hotspots",
+                "responses": {
+                    "200": {
+                        "description": "list hotspots",
+                        "content": {
+                            "application/json" : {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data" : {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "id" : {
+                                                        "type": "number"
+                                                    },
+                                                    "name" : {
+                                                        "type": "string"
+                                                    },
+                                                    "lang" : {
+                                                        "type": "number"
+                                                    },
+                                                    "long" : {
+                                                        "type": "number"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "error" : {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
