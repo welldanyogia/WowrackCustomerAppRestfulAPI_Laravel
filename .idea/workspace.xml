@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf0e307-a0d6-4daf-995c-9a1bf2d037ac" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="cdf0e307-a0d6-4daf-995c-9a1bf2d037ac" name="Changes" comment="Update Login OTP with email notification">
+      <change afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Controllers/ServiceController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Controllers/SubscriptionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Requests/ServiceCreteRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Requests/SubscriptionCreateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Resources/ServiceResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Resources/SubscriptionResource.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Resources/UserResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Http/Resources/UserResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/Hotspot.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/Hotspot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/VerificationCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Models/Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Notifications/LoginEmailOtpNotification.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/app/Notifications/LoginEmailOtpNotification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/database/migrations/2023_11_28_084117_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/database/migrations/2023_11_28_084117_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/database/migrations/2023_11_28_155642_create_verification_codes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/database/migrations/2023_11_30_074707_create_services_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/database/seeders/VerificationCodeSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/database/seeders/ServiceSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/docs/article-api.json" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/docs/article-api.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WowrackRestfulAPILaravel/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/WowrackRestfulAPILaravel/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,27 +166,31 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2YlrQgDIqLYDJxFtb88cNcJiREA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;DEFAULT&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.deploy.options&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/welld/PhpstormProjects/WowrackCustomerAppRestAPI/WowrackRestfulAPILaravel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "DEFAULT",
+    "settings.editor.selected.configurable": "reference.settings.deploy.options",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="PHPUnit.UserTest.testRegisterSuccess">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/WowrackRestfulAPILaravel/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -206,6 +220,14 @@
       <workItem from="1701128961011" duration="3821000" />
       <workItem from="1701160357852" duration="3314000" />
       <workItem from="1701185141736" duration="9333000" />
+      <workItem from="1701205991213" duration="4562000" />
+      <workItem from="1701211323381" duration="2001000" />
+      <workItem from="1701217740807" duration="626000" />
+      <workItem from="1701225956538" duration="1221000" />
+      <workItem from="1701230572155" duration="108000" />
+      <workItem from="1701230699625" duration="2377000" />
+      <workItem from="1701330175783" duration="4904000" />
+      <workItem from="1701351982857" duration="6364000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -215,14 +237,32 @@
       <option name="project" value="LOCAL" />
       <updated>1701189316008</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update Login OTP with email notification">
+      <option name="closed" value="true" />
+      <created>1701206158105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701206158105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update Login OTP with email notification">
+      <option name="closed" value="true" />
+      <created>1701206232635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701206232635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Update Login OTP with email notification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Login OTP with email notification" />
   </component>
 </project>
